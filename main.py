@@ -15,7 +15,7 @@ bot_token = os.getenv("BOT_TOKEN")
 admin_id = os.getenv("ADMIN_ID")
 
 
-load_.env()
+load_dotenv()
 
 ADMIN_ID = int(os.getenv("ADMIN_ID", "7613461761"))
 SESSION_TIMEOUT = 600
