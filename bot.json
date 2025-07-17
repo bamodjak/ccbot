@@ -1,17 +1,11 @@
 {
-  "bot_token": "7339843472:AAGYJ5mzim2qOriUPLmfkc-6M-BzddV7TX8",
-  "entry_point": "main.py",
+  "bb_sync_version": "1.0",
+  "token": "your_telegram_bot_token_here",
+  "admin_id": "your_admin_telegram_user_id_here",
+  "name": "YourBotName",
+  "description": "A brief description of your bot",
   "commands": [
-    {
-      "command": "start",
-      "description": "Start the bot"
-    }
-  ],
-  "webhook": {
-    "enabled": true,
-    "path": "/webhook"
-  },
-  "env": {
-    "ADMIN_ID": "7613461761"
-  }
+    { "command": "/start", "description": "Start the bot" },
+    { "command": "/help", "description": "Get help information" }
+  ]
 }
