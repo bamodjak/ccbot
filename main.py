@@ -5,9 +5,9 @@ from generator import generate_cards
 from checker import batch_validate
 from validation_api import detect_gateway
 from token_provision import generate_token
-from dotenv import load_dotenv
+from .env import load_.env
 
-load_dotenv()
+load_.env()
 
 ADMIN_ID = int(os.getenv("ADMIN_ID", "7613461761"))
 SESSION_TIMEOUT = 600
