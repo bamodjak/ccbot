@@ -1,0 +1,17 @@
+{
+  "bot_token": "7339843472:AAGYJ5mzim2qOriUPLmfkc-6M-BzddV7TX8",
+  "entry_point": "main.py",
+  "commands": [
+    {
+      "command": "start",
+      "description": "Start the bot"
+    }
+  ],
+  "webhook": {
+    "enabled": true,
+    "path": "/webhook"
+  },
+  "env": {
+    "ADMIN_ID": "7613461761"
+  }
+}
