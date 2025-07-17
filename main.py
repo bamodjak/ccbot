@@ -5,7 +5,15 @@ from generator import generate_cards
 from checker import batch_validate
 from validation_api import detect_gateway
 from token_provision import generate_token
-from .env import load_.env
+from dotenv import load_dotenv
+
+# Load environment variables from .env
+load_dotenv()
+
+# Use the environment variables for the bot token and admin ID
+bot_token = os.getenv("BOT_TOKEN")
+admin_id = os.getenv("ADMIN_ID")
+
 
 load_.env()
 
